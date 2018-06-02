@@ -7,6 +7,8 @@ provisioner:
 
 verifier:
   name: inspec
+  inspec_tests:
+    - test/smoke/default
 
 platforms:
   - name: centos-7
