@@ -8,6 +8,8 @@ provisioner:
   product_version: 14.12.9
 verifier:
   name: inspec
+  inspec_tests:
+    - test/smoke/default
 
 platforms:
   - name: centos-7
